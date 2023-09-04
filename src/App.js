@@ -1,3 +1,5 @@
+// para inciar no crome use yarn start
+
 import { useState } from "react";
 
 export default function App() {
@@ -14,7 +16,7 @@ export default function App() {
 
   return (
     <section>
-      <h1>Cuonter</h1>
+      <h1>Counter</h1>
       <p>{number}</p>
       <button onClick={decrease}>- </button>
       <button onClick={increase}>+</button>
